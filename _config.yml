@@ -45,4 +45,4 @@ credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a
 markdown: kramdown
 permalink: pretty
 pygments: true
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', '/vendor']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']

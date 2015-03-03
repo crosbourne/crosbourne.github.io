@@ -10,6 +10,11 @@ body {
 
 p {
     font-size: 20px;
+
+}
+
+.padding-bottom {
+    padding-bottom: 10px
 }
 
 p.small {
@@ -25,9 +30,21 @@ a.active {
     color: #{{ site.color.primary }};
 }
 
+h3 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+h3:hover {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    outline: 0;
+    color: #{{ site.color.primary }};
+}
+
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -75,9 +92,21 @@ hr.star-primary:after {
     background-color: #fff;
 }
 
+/*big image of portfolio icon*/
 .img-centered {
     margin: 0 auto;
+    display: none;
 }
+
+/*big image replaced with this image*/
+    #center {
+    width: 900px;
+    text-align: center !important;
+    margin: 0 auto !important;
+    z-index: 0
+
+}
+
 
 header {
     text-align: center;
@@ -124,6 +153,8 @@ header .intro-text .skills {
 }
 
 @media(min-width:768px) {
+
+
     .navbar-fixed-top {
         padding: 25px 0;
         -webkit-transition: padding .3s;
@@ -182,6 +213,54 @@ section h2 {
 section.success {
     color: #fff;
     background: #{{ site.color.primary }};
+}
+
+
+@media(min-width:1200px) {
+
+    #center {
+        width: 700px;
+       margin-left: auto;
+       margin-right: auto;
+    }
+
+}
+
+@media(max-width:1000px) {
+
+    #center {
+        width: 600px;
+    }
+
+}
+@media(max-width:670px) {
+
+    #center {
+        width: 400px;
+    }
+
+}
+
+@media(max-width:460px) {
+
+    #center {
+        width: 360px;
+    }
+
+}
+@media(max-width:459px) {
+
+    #center {
+        width: 300px;
+    }
+
+}
+@media(max-width:400px) {
+
+    #center {
+        width: 260px;
+    }
+
 }
 
 @media(max-width:767px) {
@@ -442,4 +521,39 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  transition:0.5s;
+  pointer-events: none;
+  z-index: 1
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+  position: absolute;
+  top: 109px;
+
+ 
+  color: #2c3e50;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.2;
+  z-index: 1
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
 }

@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 6
+date: 2014-07-14
+img: game.png
+alt: image-alt
+project-date: 2004-2014
+client: Various
+category: 3D Character models and Animation
+description: <a href="http://neilcrosbourne.wix.com/neilcrosbourne" target="_blank" data-tooltip="Click on image to go to website"><img src="http://imageshack.com/a/img538/2801/PNCr4m.png"id="center"></a><br><br>This is my 3D character web page. The web page features my showreel as well as character designs and screenshots from my published games to date. 
+
+---

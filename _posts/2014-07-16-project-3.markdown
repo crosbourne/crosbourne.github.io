@@ -2,11 +2,11 @@
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: circus.png
+img: super.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+project-date: February 2015
+client: General Assembly
 category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+description: <a href="https://project3-comicbubble.herokuapp.com/" target="_blank" data-tooltip="Click on image to go to website"><img src="http://imageshack.com/a/img673/1182/yGyt9l.png"id="center"></a><br><br>For the third project of our course I chose to build a comic app. The initial scope was to plug into the COMIC VINE database api and then use D3 (Data-Driven Documents) to simulate the comics in the database as a 'bubble cloud'. The web page was made with Ruby on Rails, D3, Html, CSS, JQuery and CoffeeScript.
 
 ---

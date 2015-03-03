@@ -3,15 +3,16 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.location }}</h3>
-                        <p>
-                            {% for adress in site.address %}
-                                {{ adress.line }} <br>
-		                    {% endfor %}
-                        </p>
+                    <div class="footer-col col-md-6">
+                        <h3>Neil Crosbourne</h3>
+                        <p itemprop="jobtitle">Web Developer - 3D Character Artist</p>
+                        <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                         <span itemprop="streetAddress">16 April Court Teale Street</span>
+                         <span itemprop="postalCode">E2 9AA</span>  
+                         </p>
+                     <p itemprop="addressLocality">0773 998 5278</p>
                     </div>
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col col-md-6">
                         <h3>{{ site.footer.social }}</h3>
                         <ul class="list-inline">
                             {% for network in site.social %}
@@ -20,10 +21,6 @@
                             </li>
 		                    {% endfor %}
                         </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.credits }}</h3>
-                        <p>{{ site.credits }}</p>
                     </div>
                 </div>
             </div>

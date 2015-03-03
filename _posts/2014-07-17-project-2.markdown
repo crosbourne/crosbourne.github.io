@@ -2,11 +2,11 @@
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: cake.png
+img: credit.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+project-date: January 2015
+client: General Assembly
 category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+description: <a href="https://project2-billshare.herokuapp.com/" target="_blank" data-tooltip="Click on image to go to website"><img src="http://imageshack.com/a/img661/6044/V4bnqh.png"id="center"></a><br><br>For the second project of our course I worked in a team of three to build a bill sharing app. The initial scope was to proportian a bill between a group of people and set the share each person pays. The web page was made with Ruby on Rails, Html, CSS and JQuery.
 
 ---

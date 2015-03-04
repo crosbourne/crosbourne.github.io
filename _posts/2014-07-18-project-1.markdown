@@ -7,6 +7,6 @@ alt: image-alt
 project-date: December 2014
 client: General Assembly
 category: Web Development
-description: <a href="https://project1-feedback.herokuapp.com/" target="_blank" data-tooltip="Click on image to go to website"><img src="http://imageshack.com/a/img910/3126/PZQ91T.png" id="center" ></a><br><br>For the first project of our course I chose to build a music app. The initial scope was to upload music and comment on tracks, and then add anything else to it if we had time. The web page was made with Ruby on Rails, Html, CSS and Foundation.
+description: <a href="https://project1-feedback.herokuapp.com/" target="_blank" data-tooltip="Click on image to go to website"><img src="http://imageshack.com/a/img910/3126/PZQ91T.png" id="center" ></a><br><br>For the first project of our course I chose to build a music app. The initial scope was to upload music and comment on tracks, and then add anything else to it if we had time. The illustrations for the Genres page were created by me in Photoshop. The web page was made with Ruby on Rails, Html, CSS and Foundation.
 
 ---

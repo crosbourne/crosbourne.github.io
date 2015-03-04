@@ -26,25 +26,35 @@ a:hover,
 a:focus,
 a:active,
 a.active {
+    text-decoration: none;
     outline: 0;
+    color: #{{ site.color.primary }};
+
+}
+
+#email {
+    color: white;
+    text-decoration: none;
+
+}
+
+#email:hover {
     color: #{{ site.color.primary }};
 }
 
-h3 {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+#special {
+    text-decoration: none;
+    color: red ;
 }
-h3:hover {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    outline: 0;
-    color: #{{ site.color.primary }};
+
+#special:hover {
+    /*color: #2c3e50;*/
+    color: #BE0000;
 }
 
 h1,
 h2,
+h3,
 h4,
 h5,
 h6 {

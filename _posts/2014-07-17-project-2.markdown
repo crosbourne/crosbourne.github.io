@@ -7,6 +7,6 @@ alt: image-alt
 project-date: January 2015
 client:  <strong><a href="https://generalassemb.ly/" target="_blank" id="special" >General Assembly</a></strong> 
 category: Web Development
-description: <a href="https://project2-billshare.herokuapp.com/" target="_blank" data-tooltip="Click on image to go to website"><img src="http://imageshack.com/a/img661/6044/V4bnqh.png"id="center"></a><br><br>For the second project of our course I worked in a team of three to build a bill sharing app. The initial scope was to proportian a bill between a group of people and set the share each person pays. Designs, layouts and logos were created by me in Photoshop. The web page was made with Ruby on Rails, Html, CSS and JQuery. Project 2 website is responsive.
+description: <a href="https://project2-billshare.herokuapp.com/" target="_blank" data-tooltip="Click on image to go to website"><img src="http://imageshack.com/a/img661/6044/V4bnqh.png"id="center"></a><br><br><strong>BILLSHARE</strong><br>For the second project of our course I worked in a team of three to build a bill sharing app. The initial scope was to proportian a bill between a group of people and set the share each person pays. Designs, layouts and logos were created by me in Photoshop. The web page was made with Ruby on Rails, Html, CSS and JQuery. Project 2 website is responsive.
 
 ---

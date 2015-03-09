@@ -73,8 +73,8 @@ hr.star-primary {
     text-align: center;
 }
 
-hr.star-light,
-hr.star-primary {
+hr.star-light:after,
+hr.star-primary:after {
     content: "\f005";
     display: inline-block;
     position: relative;
@@ -88,7 +88,7 @@ hr.star-light {
     border-color: #fff;
 }
 
-hr.star-light {
+hr.star-light:after {
     color: #fff;
     background-color: #{{ site.color.primary }};
 }
@@ -97,7 +97,7 @@ hr.star-primary {
     border-color: #{{ site.color.secondary }};
 }
 
-hr.star-primary {
+hr.star-primary:after {
     color: #{{ site.color.secondary }};
     background-color: #fff;
 }

@@ -7,6 +7,6 @@ alt: image-alt
 project-date: February 2015
 client:  <strong><a href="https://generalassemb.ly/" target="_blank" id="special" >General Assembly</a></strong> 
 category: Web Development
-description: <a href="https://project3-comicbubble.herokuapp.com/" target="_blank" data-tooltip="Click on image to go to website"><img src="http://imageshack.com/a/img673/1182/yGyt9l.png"id="center"></a><br><br>For the third project of our course I chose to build a comic app. The initial scope was to plug into the COMIC VINE database api and then use D3 (Data-Driven Documents) to simulate the comics in the database as a 'bubble cloud'. Designs, layouts, illustrations and logos were created by me in Photoshop. The web page was made with Ruby on Rails, D3, Html, CSS, JQuery and CoffeeScript. Website is responsive.
+description: <a href="https://project3-comicbubble.herokuapp.com/" target="_blank" data-tooltip="Click on image to go to website"><img src="http://imageshack.com/a/img673/1182/yGyt9l.png"id="center"></a><br><br>For the third project of our course I chose to build a comic app. The initial scope was to plug into the COMIC VINE database api and then use D3 (Data-Driven Documents) to simulate the comics in the database as a 'bubble cloud'. Designs, layouts, illustrations and logos were created by me in Photoshop. The web page was made with Ruby on Rails, D3, Html, CSS, JQuery and CoffeeScript. Project 3 website is responsive.
 
 ---
